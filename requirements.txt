@@ -5,7 +5,9 @@ omegaconf
 torchmetrics==0.10.3
 fvcore
 iopath
-xformers==0.0.18
+#xformers==0.0.18
+xformers==0.0.16 
+#closest version on the other end is xformers==0.0.20
 submitit
 --extra-index-url https://pypi.nvidia.com
 cuml-cu11
